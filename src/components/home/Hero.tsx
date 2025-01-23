@@ -24,8 +24,14 @@ export const Hero = () => {
               </span>
               <motion.div
                 className="absolute top-32 -right-[267px] hidden sm:inline"
-                drag
-                dragSnapToOrigin
+                animate={{
+                    y: [0, -10, 0],
+                  }}
+                  transition={{
+                    duration: 4,
+                    repeat: Infinity,
+                    repeatType: "loop",
+                  }}
               >
                 <Image
                   src={ComputerImage}
@@ -38,8 +44,14 @@ export const Hero = () => {
               </motion.div>
               <motion.div
                 className="absolute -left-56 top-[20px] hidden sm:inline"
-                drag
-                dragSnapToOrigin
+                animate={{
+                    y: [0, -12, 0],
+                  }}
+                  transition={{
+                    duration: 5,
+                    repeat: Infinity,
+                    repeatType: "loop",
+                  }}
               >
                 <Image
                   src={BobaImage}
@@ -54,7 +66,7 @@ export const Hero = () => {
           </div>
         </div>
         <div className="flex justify-center">
-          <p className="text-justify text-lg sm:text-xl mt-8 max-w-lg z-2 text-black/70 dark:text-white/70">
+          <p className="text-center text-lg sm:text-xl mt-8 max-w-lg z-2 text-black/70 dark:text-white/70">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum
             unde maxime quasi asperiores commodi autem mollitia atque adipisci
             possimus.
@@ -63,7 +75,7 @@ export const Hero = () => {
         <div className="flex justify-center mt-8">
           <Link
             href="/projects"
-            className="bg-[linear-gradient(to_right,rgb(255,_216,_167,_.9),rgb(246,_182,_182,_.9),rgb(227,_150,_204,_.9),rgb(209,_115,_227,_.9),rgb(171,_84,_231,_.9))] text-white py-3 px-5 rounded-lg inline-flex items-center gap-4"
+            className="bg-[linear-gradient(to_right,rgb(255,_216,_167),rgb(246,_182,_182),rgb(227,_150,_204),rgb(209,_115,_227),rgb(171,_84,_231))] text-white py-3 px-5 rounded-lg inline-flex items-center gap-4 transition-transform transform hover:scale-105"
           >
             Projects
             <ArrowRight weight="fill" size={18} />

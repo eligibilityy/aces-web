@@ -53,7 +53,7 @@ export const CallToAction = () => {
 
   function onSubmit(values: z.infer<typeof formSchema>) {
     console.log(values);
-    setNotification("Form submitted successfully!");
+    setNotification("Sweet! :)");
   }
 
   return (

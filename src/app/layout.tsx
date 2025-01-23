@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={twMerge(JetBrains.className, "")}
+        className={twMerge(JetBrains.className, "dark:bg-black bg-white scrollbar")}
       >
         <ThemeProvider
           attribute="class"

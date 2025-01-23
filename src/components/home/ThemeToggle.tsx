@@ -20,14 +20,13 @@ export function ThemeToggle() {
     <Button variant="outline" size="icon" onClick={toggleTheme}>
       <Sun
         weight="fill"
-        size={30}
-        className="rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0"
+        className="opacity-100 transition-all dark:opacity-0"
       />
       <Moon
         weight="fill"
-        size={30}
-        className="absolute rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100"
+        className="absolute opacity-0 transition-all dark:opacity-100"
       />
+
       <span className="sr-only">Toggle theme</span>
     </Button>
   );

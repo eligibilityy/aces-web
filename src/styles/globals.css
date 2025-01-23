@@ -2,8 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .scrollbar::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+    background: transparent;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: lightgray;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: lightgray;
+    border-radius: 100vh;
+    border: 3px solid transparent;
+  }
+
+  .scrollbar:hover::-webkit-scrollbar-thumb {
+    background: gray;
+  }
+
+  .dark .scrollbar::-webkit-scrollbar-track {
+    background: gray;
+  }
+
+  .dark .scrollbar:hover::-webkit-scrollbar-thumb {
+    background: lightgray;
+  }
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 @layer base {
@@ -65,6 +101,7 @@ body {
 @layer base {
   * {
     @apply border-border;
+
   }
   body {
     @apply bg-background text-foreground;

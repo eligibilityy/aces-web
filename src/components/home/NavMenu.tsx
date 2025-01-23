@@ -50,7 +50,7 @@ export const NavMenu = () => {
                   <Link
                     href={href}
                     target={target}
-                    className="hover:text-sky-300/90 text-lg transition-colors flex items-center gap-2"
+                    className="hover:underline underline-offset-2 text-lg transition-colors flex items-center gap-2"
                   >
                     <span className="text-xl">{icon}</span>
                     <span>{title}</span>

@@ -40,12 +40,15 @@ export const Showcase = () => {
           ACES Showcase 🌟
         </h2>
         <div className="max-w-3xl mx-auto">
-          <p className="text-lg sm:text-xl text-center text-white/70 mt-5">
+          <p className="text-lg sm:text-xl text-center text-black/70 dark:text-white/70 mt-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
             ratione repudiandae placeat deserunt voluptatem neque.
           </p>
         </div>
-        <Carousel setApi={setApi} className="w-full max-w-5xl mx-auto mt-10">
+        <div className="block sm:hidden text-center text-xs text-black/40 dark:text-white/40 mt-5">
+            Swipe to see all images
+        </div>
+        <Carousel setApi={setApi} className="w-full max-w-5xl mx-auto">
           <CarouselContent>
             {Array.from({ length: 7 }).map((_, index) => (
               <CarouselItem key={index} className="">
