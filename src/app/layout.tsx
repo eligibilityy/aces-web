@@ -36,7 +36,9 @@ export const metadata: Metadata = {
     creator: "@dlsl_aces",
     title: "DLSL ACES",
     description: "Website for the SHS ACES Club in DLSL.",
-    images: ["https://www.dlsl-aces.com/og-image.jpg"],
+    images: [
+      `${AcesBanner.src}`
+    ],
   },
 };
 
