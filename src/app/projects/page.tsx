@@ -91,7 +91,7 @@ export default async function Projects() {
                 </CardContent>
                 <CardFooter className="flex justify-end">
                   <Link
-                    href={`https://www.youtube.com/watch?v=1KYfstXHXa0`}
+                    href={"https://www.youtube.com/watch?v=1KYfstXHXa0"}
                     target="_blank"
                   >
                     <Button className="capitalize" variant="secondary">
