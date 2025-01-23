@@ -2,7 +2,7 @@
 
 > This website is written in TypeScript. If needed, we will stick with HTML/CSS/JS.
 
-As of the moment, the files in this repository __are not final__ and is subject to change.
+As of the moment, the files in this repository **are not final** and is subject to change.
 
 ## Development
 

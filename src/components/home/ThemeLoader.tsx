@@ -16,11 +16,5 @@ export default function ThemeBasedLoader() {
     }
   }, [theme]);
 
-  return (
-    <NextTopLoader
-      color={loaderColor}
-      showAtBottom={true}
-      crawl={true}
-    />
-  );
+  return <NextTopLoader color={loaderColor} showAtBottom={true} crawl={true} />;
 }

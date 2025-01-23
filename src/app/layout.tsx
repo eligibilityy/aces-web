@@ -6,7 +6,7 @@ import { twMerge } from "tailwind-merge";
 import { ThemeProvider } from "next-themes";
 import ThemeBasedLoader from "@/components/home/ThemeLoader"; // Import client-side component
 
-import AcesBanner from "@/components/assets/aces-banner.png"
+import AcesBanner from "@/components/assets/aces-banner.png";
 
 const JetBrains = JetBrains_Mono({ subsets: ["latin"] });
 
@@ -36,9 +36,7 @@ export const metadata: Metadata = {
     creator: "@dlsl_aces",
     title: "DLSL ACES",
     description: "Website for the SHS ACES Club in DLSL.",
-    images: [
-      `${AcesBanner.src}`
-    ],
+    images: [`${AcesBanner.src}`],
   },
 };
 
