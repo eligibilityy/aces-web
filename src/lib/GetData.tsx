@@ -11,11 +11,7 @@ export async function GetData() {
     return res.json();
 }
 
-export async function FetchCommits(
-    repoId: string,
-    page: number,
-    search?: string,
-): Promise<Commit[]> {
+export async function FetchCommits(repoId: string): Promise<Commit[]> {
     try {
         const responseRepo = await fetch(
             `https://api.github.com/repositories/${repoId}`,

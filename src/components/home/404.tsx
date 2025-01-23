@@ -34,7 +34,7 @@ export default function NotFoundPage() {
         <h1 className="text-7xl font-bold tracking-tighter mb-2">Ooooops.</h1>
         <p className="text-black/70 dark:text-white/70 flex items-center gap-2">
           <Loader2 className="animate-spin"/>
-          Can't find the page you're looking for.
+          Can&apos;t find the page you&apos;re looking for.
         </p>
         <Link href="/" passHref>
           <Button variant="outline" className="mt-4 flex items-center space-x-2">
