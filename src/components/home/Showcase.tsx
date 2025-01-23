@@ -46,7 +46,7 @@ export const Showcase = () => {
           </p>
         </div>
         <div className="block sm:hidden text-center text-xs text-black/40 dark:text-white/40 mt-5">
-            Swipe to see all images
+          Swipe to see all images
         </div>
         <Carousel setApi={setApi} className="w-full max-w-5xl mx-auto">
           <CarouselContent>

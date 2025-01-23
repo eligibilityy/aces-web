@@ -25,13 +25,13 @@ export const Hero = () => {
               <motion.div
                 className="absolute top-32 -right-[267px] hidden sm:inline"
                 animate={{
-                    y: [0, -10, 0],
-                  }}
-                  transition={{
-                    duration: 4,
-                    repeat: Infinity,
-                    repeatType: "loop",
-                  }}
+                  y: [0, -10, 0],
+                }}
+                transition={{
+                  duration: 4,
+                  repeat: Infinity,
+                  repeatType: "loop",
+                }}
               >
                 <Image
                   src={ComputerImage}
@@ -45,13 +45,13 @@ export const Hero = () => {
               <motion.div
                 className="absolute -left-56 top-[20px] hidden sm:inline"
                 animate={{
-                    y: [0, -12, 0],
-                  }}
-                  transition={{
-                    duration: 5,
-                    repeat: Infinity,
-                    repeatType: "loop",
-                  }}
+                  y: [0, -12, 0],
+                }}
+                transition={{
+                  duration: 5,
+                  repeat: Infinity,
+                  repeatType: "loop",
+                }}
               >
                 <Image
                   src={BobaImage}
