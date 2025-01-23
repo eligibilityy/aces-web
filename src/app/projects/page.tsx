@@ -28,6 +28,13 @@ const projects = [
   },
 ];
 
+export const metadata = {
+  title: "Projects",
+  opengraph: {
+    url: "https://aces-web.vercel.app/projects",
+  }
+}
+
 export default async function Projects() {
   return (
     <>
