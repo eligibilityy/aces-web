@@ -20,9 +20,8 @@ export async function GetData(): Promise<Repository[]> {
 
   const repos = await res.json();
 
-  // Fetch languages for each repository and add it to the response
   const repositoriesWithLanguages = await Promise.all(
-    repos.map(async (repo: any) => {
+    repos.map(async (repo: Repository) => {
       const languages = await fetchRepoLanguages(repo.owner.login, repo.name);
       return {
         id: repo.id,
