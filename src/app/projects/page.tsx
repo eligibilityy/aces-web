@@ -9,21 +9,18 @@ import {
   CardContent,
   CardFooter,
 } from "@/components/ui/card";
-import {
-  Avatar,
-  AvatarImage,
-  AvatarFallback
-} from "@/components/ui/avatar"
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { ArrowUpRight } from "@phosphor-icons/react/dist/ssr";
 import { Separator } from "@/components/ui/separator";
 
-import TheBestPictureEver from "@/components/assets/thebestpicturetoeverexist.jpg"
+import TheBestPictureEver from "@/components/assets/thebestpicturetoeverexist.jpg";
 
 const projects = [
   {
     author: "ACES",
     title: "Minecraft",
-    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, sapiente.",
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, sapiente.",
     iconPath: TheBestPictureEver,
   },
 ];
@@ -32,8 +29,8 @@ export const metadata = {
   title: "Projects",
   opengraph: {
     url: "https://aces-web.vercel.app/projects",
-  }
-}
+  },
+};
 
 export default async function Projects() {
   return (
@@ -70,11 +67,9 @@ export default async function Projects() {
                 <CardHeader>
                   <div className="flex justify-start items-center mb-2 gap-4">
                     <Avatar>
-                        <AvatarImage src={iconPath.src} alt="Icon" />
-                        <AvatarFallback>
-                          {author.charAt(0)}
-                        </AvatarFallback>
-                      </Avatar>
+                      <AvatarImage src={iconPath.src} alt="Icon" />
+                      <AvatarFallback>{author.charAt(0)}</AvatarFallback>
+                    </Avatar>
                     <CardTitle className="text-md font-semibold">
                       {author}
                     </CardTitle>
@@ -86,8 +81,7 @@ export default async function Projects() {
                     {description}
                   </p>
                   {/* Display languages */}
-                  <div className="flex flex-wrap gap-2">
-                  </div>
+                  <div className="flex flex-wrap gap-2"></div>
                 </CardContent>
                 <CardFooter className="flex justify-end">
                   <Link
