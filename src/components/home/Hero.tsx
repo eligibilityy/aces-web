@@ -71,13 +71,13 @@ export const Hero = () => {
           </span>
         </div>
         <div className="flex justify-center mt-8">
-            <Link
+          <Link
             href="/projects"
             className="bg-[linear-gradient(to_right,rgb(255,_216,_167),rgb(246,_182,_182),rgb(227,_150,_204),rgb(209,_115,_227),rgb(171,_84,_231))] text-white py-3 px-5 rounded-lg inline-flex items-center gap-4 transition-all transform hover:scale-105 font-medium hover:bg-[linear-gradient(to_right,rgb(255,_200,_150),rgb(230,_160,_160),rgb(210,_130,_190),rgb(190,_100,_210),rgb(150,_70,_210))]"
-            >
+          >
             Projects
             <ArrowRight weight="fill" size={18} />
-            </Link>
+          </Link>
         </div>
       </div>
     </div>

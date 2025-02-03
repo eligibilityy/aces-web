@@ -59,9 +59,13 @@ const FeatureNine = () => {
   return (
     <div className="bg-white dark:bg-black sm:py-[72px] py-24 mx-auto">
       <div className="container sm:max-w-6xl text-center">
-        <h2 className="!mt-0 mb-4 sm:text-6xl text-5xl font-bold tracking-tight">ACES Showcase ✨</h2>
+        <h2 className="!mt-0 mb-4 sm:text-6xl text-5xl font-bold tracking-tight">
+          ACES Showcase ✨
+        </h2>
         <p className="text-black/70 dark:text-white/70">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima praesentium voluptas, iure laborum quibusdam eveniet unde cumque labore fugit corporis.
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima
+          praesentium voluptas, iure laborum quibusdam eveniet unde cumque
+          labore fugit corporis.
         </p>
         <Carousel className="mt-6 w-full">
           <CarouselContent className="-ml-1">

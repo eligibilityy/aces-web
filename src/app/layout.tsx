@@ -47,7 +47,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={twMerge(GeistFont.className, "dark:bg-black bg-white scrollbar")}
+        className={twMerge(
+          GeistFont.className,
+          "dark:bg-black bg-white scrollbar",
+        )}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           {children}
