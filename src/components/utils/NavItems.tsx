@@ -1,6 +1,5 @@
 import { 
     GithubLogo,
-    ProjectorScreenChart, 
     House
 } from "@phosphor-icons/react/dist/ssr";
 
