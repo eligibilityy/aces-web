@@ -66,7 +66,7 @@ export const Hero = () => {
           </div>
         </div>
         <div className="flex justify-center">
-          <span className="py-4 text-center text-lg max-w-md z-2 text-black/90 dark:text-white/90">
+          <span className="py-4 text-center text-xl max-w-md z-2 text-black/70 dark:text-white/70">
             Come over to MM Building for our Gaming Lounge on Foundation Week!
           </span>
         </div>
