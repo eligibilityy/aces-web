@@ -25,12 +25,12 @@ const items = [
 
 export const FAQ = () => {
   return (
-    <div className="py-[72px] sm:py-24 bg-white dark:bg-black">
+    <div className="py-[72px] sm:py-24 bg-white dark:bg-black sm:px-0 px-4">
       <div className="container">
         <h2 className="text-center text-5xl sm:text-6xl sm:max-w-xl mx-auto font-bold tracking-tight">
           Frequently Asked Questions 🙋‍♂️
         </h2>
-        <div className="mt-12 pb-12 max-w-xl mx-auto relative">
+        <div className="mt-6 pb-6 max-w-xl mx-auto relative">
           {items.map(({ question, answer }) => {
             return (
               <Accordion
@@ -40,7 +40,7 @@ export const FAQ = () => {
                 className="w-full py-2"
               >
                 <AccordionItem value={question}>
-                  <AccordionTrigger className="sm:text-lg text-[0.9rem]">
+                  <AccordionTrigger className="sm:text-lg text-[1rem]">
                     {question}
                   </AccordionTrigger>
                   <AccordionContent className="text-black/70 dark:text-white/70">

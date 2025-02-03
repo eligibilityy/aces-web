@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { JetBrains_Mono } from "next/font/google";
+import { Geist } from "next/font/google";
 import "@/styles/globals.css";
 import { twMerge } from "tailwind-merge";
 
 import { ThemeProvider } from "next-themes";
 
-const JetBrains = JetBrains_Mono({ subsets: ["latin"] });
+const GeistFont = Geist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "DLSL - ACES Club",
@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={twMerge(JetBrains.className, "dark:bg-black bg-white scrollbar")}
+        className={twMerge(GeistFont.className, "dark:bg-black bg-white")}
       >
         <ThemeProvider
           attribute="class"

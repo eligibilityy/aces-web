@@ -2,7 +2,7 @@
 
 import { Hero } from "@/components/home/Hero";
 // import { Club } from "@/components/home/Club"
-import { Showcase } from "@/components/home/Showcase";
+import FeatureNine from "@/components/home/Carousel";
 import { FAQ } from "@/components/home/FAQs";
 import { CallToAction } from "@/components/home/CTA";
 import { Footer } from "@/components/home/Footer";
@@ -14,7 +14,7 @@ export default function Home() {
       <Nav />
       <Hero />
       {/* <Club /> */}
-      <Showcase />
+      <FeatureNine />
       <FAQ />
       <CallToAction />
       <Footer />

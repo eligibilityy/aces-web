@@ -15,14 +15,14 @@ export const Nav = () => {
         <Image src={AcesLogo} alt="ACES Logo" width="50" height="50"/>
       </div>
       <div className="flex flex-row items-center gap-6">
-        <ul className="hidden sm:flex gap-8 font-bold items-center">
+        <ul className="hidden sm:flex gap-8 font-semibold items-center">
           {NavItems.map(({ title, href, target, icon }) => (
             <li key={title}>
               <Link
                 target={target}
                 href={href}
                 passHref
-                className="hover:underline underline-offset-2 text-lg transition-colors flex items-center gap-2"
+                className="hover:underline underline-offset-4 decoration-1 text-lg transition-colors flex items-center gap-2"
               >
                 <span className="text-xl">{icon}</span>
                 <span>{title}</span>

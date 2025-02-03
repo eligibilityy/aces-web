@@ -12,12 +12,6 @@ export const NavItems = [
         icon: <House size={24} />
     },
     {
-        title: "Projects",
-        href: "/projects",
-        target: "_self",
-        icon: <ProjectorScreenChart size={24} />
-    },
-    {
         title: "Github",
         href: "https://github.com/DLSLACES",
         target: "_blank",
