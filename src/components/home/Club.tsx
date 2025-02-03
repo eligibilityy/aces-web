@@ -1,8 +1,4 @@
-import {
-  GameController,
-  FileHtml,
-  Binary,
-} from "@phosphor-icons/react/dist/ssr";
+import { GameController } from "@phosphor-icons/react/dist/ssr";
 
 import Image from "next/image";
 
