@@ -1,17 +1,12 @@
 "use client";
 
-import { zodResolver } from "@hookform/resolvers/zod";
-import { useForm } from "react-hook-form";
-import { useRef, useState } from "react";
+import { useRef } from "react";
 
 import Image from "next/image";
 
 import LuckyBlock from "@/components/assets/luckyblock.png";
 import Capybara from "@/components/assets/cappy.png";
 import { motion, useScroll, useTransform } from "framer-motion";
-
-import { Calendar } from "@/components/ui/calendar";
-
 export const CallToAction = () => {
   const containerRef = useRef<HTMLDivElement>(null);
 
