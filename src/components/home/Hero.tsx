@@ -67,7 +67,7 @@ export const Hero = () => {
         </div>
         <div className="flex justify-center">
           <span className="py-4 text-center text-base sm:text-xl max-w-md z-2 text-black/70 dark:text-white/70">
-            Come over to MM Building for our Gaming Lounge on Foundation Week!
+            Visit our Gaming Lounge on Foundation Week!
           </span>
         </div>
         <div className="flex justify-center mt-8">
