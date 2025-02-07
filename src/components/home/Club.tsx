@@ -1,4 +1,8 @@
-import { GameController, FileHtml, Terminal } from "@phosphor-icons/react/dist/ssr";
+import {
+  GameController,
+  FileHtml,
+  Terminal,
+} from "@phosphor-icons/react/dist/ssr";
 const skills = [
   {
     title: "Game Development",
@@ -28,7 +32,7 @@ export const Club = () => {
         </h2>
         <div className="max-w-xl mx-auto">
           <p className="text-center mt-5 text-base sm:text-xl text-black/70 dark:text-white/70">
-            Our general skills and departments in ACES. 
+            Our general skills and departments in ACES.
           </p>
         </div>
         <div className="mt-16 flex flex-col sm:flex-row gap-4">
@@ -37,14 +41,15 @@ export const Club = () => {
               key={title}
               className="relative rounded-xl overflow-hidden border border-black/30 dark:border-white/30 text-center sm:flex-1 "
             >
-
               {/* Content */}
               <div className="relative z-10 px-5 py-10 items-center justify-center">
                 <div className="inline-flex h-14 w-14 dark:bg-white bg-black dark:text-black text-white justify-center items-center rounded-lg mx-auto">
                   {icon}
                 </div>
                 <h3 className="mt-6 font-bold text-xl">{title}</h3>
-                <p className="mt-2 text-sm sm:text-base dark:text-white/70 text-black/70">{description}</p>
+                <p className="mt-2 text-sm sm:text-base dark:text-white/70 text-black/70">
+                  {description}
+                </p>
               </div>
             </div>
           ))}
