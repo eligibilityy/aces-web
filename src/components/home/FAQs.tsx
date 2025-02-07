@@ -6,7 +6,7 @@ import {
 } from "@/components/ui/accordion";
 
 const items = [
-  { 
+  {
     question: "What's in for Foundation Week?",
     answer:
       "A relaxing space for gamers seeking a moment to catch their breath as they try to enjoy the many events held exclusively during the foundation week. This booth will most likely have a computer shop-like design or something homey (similar to nexus lab lounge).",

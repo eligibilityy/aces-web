@@ -47,7 +47,9 @@ export const CallToAction = () => {
             </span>
           </h2>
           <p className="text-base sm:text-xl text-black/70 dark:text-white/70 mt-5 max-w-xl mx-auto">
-            Just find our booth and have fun; be it joining our mini tournaments, playing on the Nintendo Switch, the consoles, or just to chill around! See you there!
+            Just find our booth and have fun; be it joining our mini
+            tournaments, playing on the Nintendo Switch, the consoles, or just
+            to chill around! See you there!
           </p>
         </div>
       </div>

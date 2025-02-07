@@ -57,9 +57,14 @@ const photos = [
 
 const FeatureNine = () => {
   return (
-    <div id="showcase" className="bg-white dark:bg-black py-[72px] sm:py-24  mx-auto">
+    <div
+      id="showcase"
+      className="bg-white dark:bg-black py-[72px] sm:py-24  mx-auto"
+    >
       <div className="container max-w-xl sm:max-w-6xl text-center">
-        <h2 className="!mt-0 mb-4 sm:text-5xl text-4xl font-bold tracking-tight">ACES Showcase ✨</h2>
+        <h2 className="!mt-0 mb-4 sm:text-5xl text-4xl font-bold tracking-tight">
+          ACES Showcase ✨
+        </h2>
         <div className="max-w-xl mx-auto">
           <p className="text-center mt-5 text-base sm:text-xl text-black/70 dark:text-white/70">
             A mini-gallery of our booth last academic year.
