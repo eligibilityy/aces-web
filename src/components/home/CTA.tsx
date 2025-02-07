@@ -39,17 +39,15 @@ export const CallToAction = () => {
           />
         </motion.div>
         <div className="text-center">
-          <h2 className="text-5xl sm:text-6xl font-bold tracking-tight">
+          <h2 className="text-4xl sm:text-5xl font-bold tracking-tight">
             Want In?
             <br />
             <span className="bg-gradient-to-b from-sky-500 to-purple-500 text-transparent bg-clip-text">
               Let&apos;s Go!
             </span>
           </h2>
-          <p className="text-xl text-black/70 dark:text-white/70 mt-5 max-w-xl mx-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-            explicabo atque accusantium totam mollitia quam labore sunt maxime
-            est vero!
+          <p className="text-base sm:text-xl text-black/70 dark:text-white/70 mt-5 max-w-xl mx-auto">
+            Just find our booth and have fun; be it joining our mini tournaments, playing on the Nintendo Switch, the consoles, or just to chill around! See you there!
           </p>
         </div>
       </div>

@@ -6,20 +6,20 @@ import {
 } from "@/components/ui/accordion";
 
 const items = [
-  {
-    question: "Who's the club monitor of ACES?",
-    answer:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed cupiditate perferendis cum quae voluptatem pariatur harum corporis accusantium tenetur maxime!",
-  },
-  {
+  { 
     question: "What's in for Foundation Week?",
     answer:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. A eos ullam vel impedit consequuntur, nobis corporis quas? Animi non eveniet sapiente voluptas sequi.",
+      "A relaxing space for gamers seeking a moment to catch their breath as they try to enjoy the many events held exclusively during the foundation week. This booth will most likely have a computer shop-like design or something homey (similar to nexus lab lounge).",
+  },
+  {
+    question: "Are food and drinks allowed inside the booth?",
+    answer:
+      "The club has a designated candy bar. Only small candies are allowed inside the booth. Other food and drinks are not permitted to help keep the space clean and comfortable for everyone.",
   },
   {
     question: "Can I join ACES?",
     answer:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere recusandae illo tempore incidunt, laudantium doloremque officia ipsa aliquam ea blanditiis reprehenderit tenetur autem labore accusantium esse. Placeat temporibus ducimus numquam?",
+      "Only Senior High School students can join ACES. So if you are in the SHS community, give us a try! :)",
   },
 ];
 
@@ -27,8 +27,8 @@ export const FAQ = () => {
   return (
     <div className="py-[72px] sm:py-24 bg-white dark:bg-black sm:px-0 px-4">
       <div className="container">
-        <h2 className="text-center text-5xl sm:text-6xl sm:max-w-xl mx-auto font-bold tracking-tight">
-          Frequently Asked Questions 🙋‍♂️
+        <h2 className="text-center text-4xl sm:text-5xl sm:max-w-xl mx-auto font-bold tracking-tight">
+          Some Questions 🙋‍♂️
         </h2>
         <div className="mt-6 pb-6 max-w-xl mx-auto relative">
           {items.map(({ question, answer }) => {

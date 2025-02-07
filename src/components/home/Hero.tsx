@@ -16,7 +16,7 @@ export const Hero = () => {
         {/* This is bare-bones. We can add CTA for people who want to apply/check out what we do and whatnot if you guys wnat */}
         <div className="flex justify-center">
           <div className="inline-flex relative">
-            <h1 className="text-7xl sm:text-9xl font-bold tracking-tighter text-center">
+            <h1 className="text-5xl sm:text-9xl font-bold tracking-tighter text-center">
               Hack. Tech.
               <br /> Code.{" "}
               <span className="text-[#ffd8a7] font-bold inline-block">
@@ -66,18 +66,18 @@ export const Hero = () => {
           </div>
         </div>
         <div className="flex justify-center">
-          <span className="py-4 text-center text-xl max-w-md z-2 text-black/70 dark:text-white/70">
+          <span className="py-4 text-center text-base sm:text-xl max-w-md z-2 text-black/70 dark:text-white/70">
             Come over to MM Building for our Gaming Lounge on Foundation Week!
           </span>
         </div>
         <div className="flex justify-center mt-8">
-            <Link
-            href="/projects"
+          <Link
+            href="#showcase"
             className="bg-[linear-gradient(to_right,rgb(255,_216,_167),rgb(246,_182,_182),rgb(227,_150,_204),rgb(209,_115,_227),rgb(171,_84,_231))] text-white py-3 px-5 rounded-lg inline-flex items-center gap-4 transition-all transform hover:scale-105 font-medium hover:bg-[linear-gradient(to_right,rgb(255,_200,_150),rgb(230,_160,_160),rgb(210,_130,_190),rgb(190,_100,_210),rgb(150,_70,_210))]"
-            >
-            Projects
+          >
+            Activities
             <ArrowRight weight="fill" size={18} />
-            </Link>
+          </Link>
         </div>
       </div>
     </div>

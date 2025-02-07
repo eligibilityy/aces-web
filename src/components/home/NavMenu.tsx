@@ -58,7 +58,10 @@ export const NavMenu = () => {
                 </li>
               ))}
             </ul>
-            <div className="flex gap-4 mt-8">Hi : )</div>
+            <div className="flex mt-8 gap-1 text-xs text-muted-foreground">
+              Made with <span className="text-red-500">&lt;3</span> by ACES Web
+              Team
+            </div>
           </motion.div>
         )}
       </AnimatePresence>

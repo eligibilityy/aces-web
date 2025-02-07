@@ -10,7 +10,7 @@ import { NavItems } from "../utils/NavItems";
 
 export const Nav = () => {
   return (
-    <nav className="flex justify-between items-center px-8 py-4 z-30 sticky top-0 border-b border-black/10 dark:border-white/10 bg-white dark:bg-black transition-colors">
+    <nav className="flex justify-between items-center px-4 sm:px-8 py-4 z-30 sticky top-0 border-b border-black/10 dark:border-white/10 bg-white dark:bg-black transition-colors">
       <div>
         <Image src={AcesLogo} alt="ACES Logo" width="50" height="50" />
       </div>

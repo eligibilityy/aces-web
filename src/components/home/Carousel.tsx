@@ -57,18 +57,20 @@ const photos = [
 
 const FeatureNine = () => {
   return (
-    <div className="bg-white dark:bg-black sm:py-[72px] py-24 mx-auto">
-      <div className="container sm:max-w-6xl text-center">
-        <h2 className="!mt-0 mb-4 sm:text-6xl text-5xl font-bold tracking-tight">ACES Showcase ✨</h2>
-        <p className="text-black/70 dark:text-white/70">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima praesentium voluptas, iure laborum quibusdam eveniet unde cumque labore fugit corporis.
-        </p>
-        <Carousel className="mt-6 w-full">
+    <div id="showcase" className="bg-white dark:bg-black py-[72px] sm:py-24  mx-auto">
+      <div className="container max-w-xl sm:max-w-6xl text-center">
+        <h2 className="!mt-0 mb-4 sm:text-5xl text-4xl font-bold tracking-tight">ACES Showcase ✨</h2>
+        <div className="max-w-xl mx-auto">
+          <p className="text-center mt-5 text-base sm:text-xl text-black/70 dark:text-white/70">
+            A mini-gallery of our booth last academic year.
+          </p>
+        </div>
+        <Carousel className="mt-6 sm:w-full w-[75%] mx-auto">
           <CarouselContent className="-ml-1">
             {photos.map((photo, index) => (
               <CarouselItem
                 key={index}
-                className="pl-1 md:basis-1/2 lg:basis-1/3"
+                className="pl-1 basis-full sm:basis-1/2 lg:basis-1/3"
               >
                 <div className="p-1">
                   <Card className="relative overflow-hidden">
